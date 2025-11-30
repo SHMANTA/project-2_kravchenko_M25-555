@@ -38,4 +38,28 @@ make publish
 make lint
 ```
 
+***
+<command> exit - выйти из программы
+<command> help - справочная информация
+Введите команду:
+Поддерживаемые команды:
+
+create table <name> (<columns>)
+
+drop table <name>
+
+insert into <table> values (...)
+
+select * from <table> [where ...]
+
+update <table> set ... where ...
+
+delete from <table> where ...
+
+show tables
+
+help
+
+exit
+
 [![asciicast](https://asciinema.org/a/PTx53BUOVtzy1gq8jj0zhFYsM.svg)](https://asciinema.org/a/PTx53BUOVtzy1gq8jj0zhFYsM)
