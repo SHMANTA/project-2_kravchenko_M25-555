@@ -1,8 +1,48 @@
-package = []
+[[package]]
+name = "prettytable"
+version = "3.17.0"
+description = "A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
+category = "main"
+optional = false
+python-versions = ">=3.10"
+
+[package.dependencies]
+wcwidth = "*"
+
+[package.extras]
+tests = ["pytest", "pytest-cov", "pytest-lazy-fixtures"]
+
+[[package]]
+name = "prompt"
+version = "0.4.1"
+description = "Library for prompting input on the command line."
+category = "main"
+optional = false
+python-versions = ">=3.3"
+
+[[package]]
+name = "ruff"
+version = "0.14.7"
+description = "An extremely fast Python linter and code formatter, written in Rust."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "wcwidth"
+version = "0.2.14"
+description = "Measures the displayed width of unicode strings in a terminal"
+category = "main"
+optional = false
+python-versions = ">=3.6"
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "17ca553b0bb9298a6ed528dd21e544ca433179192dba32a9920168e1c199d74f"
+content-hash = "ba5556bba61b1f782202e2f6b4ac01a7db8fa167966536baaa7b2278eee17fef"
 
 [metadata.files]
+prettytable = []
+prompt = []
+ruff = []
+wcwidth = []
