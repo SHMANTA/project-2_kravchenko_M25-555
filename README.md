@@ -39,12 +39,9 @@ make lint
 ```
 
 ***
-<command> exit - выйти из программы
-<command> help - справочная информация
-Введите команду:
 Поддерживаемые команды:
 
-* create table <name> (<columns>)
+* create table \<name\> (<columns>)
 * drop table <name>
 * insert into <table> values (...)
 * select * from <table> [where ...]
