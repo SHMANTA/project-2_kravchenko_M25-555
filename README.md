@@ -41,13 +41,13 @@ make lint
 ***
 Поддерживаемые команды:
 
-* create table \<name\> (<columns>)
-* drop table <name>
-* insert into <table> values (...)
-* select * from <table> [where ...]
-* update <table> set ... where ...
-* delete from <table> where ...
-* show tables
+* create_table \<name\> (\<column\>:\<type\>)
+* drop_table \<name\>
+* insert into \<table\> values (...)
+* select from \<table\> [where ...]
+* update \<table\> set ... where ...
+* delete from \<table\> where ...
+* list_tables
 * help
 * exit
 
