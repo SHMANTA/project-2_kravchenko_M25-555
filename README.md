@@ -12,28 +12,28 @@
 - **Декораторы** и **замыкания** для повышения качества кода
 
 ---
-Установка зависимостей:
 
+### Установка зависимостей:
 ```bash
 make install
 ```
 
-Запуск программы:
+### Запуск программы:
 ```bash
 make project
 ```
 
-Сборка пакета:
+### Сборка пакета:
 ```bash
 make build
 ```
 
-Тестовая публикация:
+### Тестовая публикация:
 ```bash
 make publish
 ```
 
-Линтер:
+### Линтер:
 ```bash
 make lint
 ```
@@ -44,22 +44,14 @@ make lint
 Введите команду:
 Поддерживаемые команды:
 
-create table <name> (<columns>)
-
-drop table <name>
-
-insert into <table> values (...)
-
-select * from <table> [where ...]
-
-update <table> set ... where ...
-
-delete from <table> where ...
-
-show tables
-
-help
-
-exit
+* create table <name> (<columns>)
+* drop table <name>
+* insert into <table> values (...)
+* select * from <table> [where ...]
+* update <table> set ... where ...
+* delete from <table> where ...
+* show tables
+* help
+* exit
 
 [![asciicast](https://asciinema.org/a/PTx53BUOVtzy1gq8jj0zhFYsM.svg)](https://asciinema.org/a/PTx53BUOVtzy1gq8jj0zhFYsM)
