@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "project-2_kravchenko_m25-555"
 version = "0.1.0"
-description = ""
+description = "Simple python data base implementation"
 authors = ["SHMANTA <nik.kravchenko.2004@bk.ru>"]
 packages = [
      { include = "src" },
